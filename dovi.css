@@ -1,0 +1,96 @@
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+float: right;
+color: #92f7d8;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: #b36bf7;
+color: white;
+}
+
+
+.heading{
+    font-size: 3em;
+    color:#111;
+    position: center;
+    position: relative;
+     width: 100%;
+     min-height: 5vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: #fff;
+     word-spacing: 20px;
+}
+
+body{
+    background-color: rgb(206, 150, 238)
+    repeat: no-repeat;
+}
+    
+}
+
+.blogs .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,fr));
+    gap:1.5rem;
+}   
+.blogs .box-container .box{
+    border: var(--border);
+}
+.blogs .box-container .box .image img{
+    height:100%;
+    object-fit: cover;
+    width: 100%;
+}
+.image{
+    
+    align-items: center;
+    position: center;
+    height:500px;
+    width: 550px;
+    position: center;
+    position: relative;
+     width: 100%;
+     min-height: 20vh;
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     background: #fff;
+     word-spacing: 20px;
+}
+.content{
+    font-size: 3em;
+    color:rgb(48, 5, 83);
+}
+.content p{
+    font-size: 0.5em;
+    color:#111;
+}
+.content p li{
+    font-size: 3em;
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
